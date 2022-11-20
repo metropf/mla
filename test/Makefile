@@ -7,7 +7,7 @@ YELLOW = \033[1;33m
 CC = clang
 LD = clang
 
-CFLAGS =  -std=c11 -Wall -pedantic -Isrc -O0
+CFLAGS =  -std=c11 -Wall -pedantic -Isrc -O0 -ggdb
 
 CFLAGS += -I../include
 LDFLAGS = ../build/debug/libmla.a -lm
