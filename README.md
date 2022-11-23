@@ -1,19 +1,9 @@
 # MLA
-### MetroPF's linear algebra library
-
----
-
-## How to build
-```
-$ make release
-```
-```
-$ make debug
-```
+### MetroPF's header-only linear algebra library
 
 ---
 
 ## Run the test
 ```
-$ make test
+$ make
 ```
