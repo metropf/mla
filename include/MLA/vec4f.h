@@ -1,5 +1,5 @@
-#ifndef _vec4i_h_
-#define _vec4i_h_
+#ifndef _vec4f_h_
+#define _vec4f_h_
 
 #include <stdint.h>
 
@@ -17,4 +17,4 @@ static inline float mla_vec4f_dot(vec4f *a, vec4f *b)
 	return a->x * b->x + a->y * b->y + a->z * b->z + a->w * b->w;
 }
 
-#endif // _vec4i_h_
+#endif // _vec4f_h_
