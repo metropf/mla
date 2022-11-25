@@ -14,7 +14,7 @@ static inline vec2i mla_vec2i(int32_t x, int32_t y)
 
 static inline int32_t mla_vec2i_dot(vec2i *a, vec2i *b)
 {
-	return a->x * b->x - a->y * b->y;
+	return a->x * b->x + a->y * b->y;
 }
 
 #endif // _vec2i_h_

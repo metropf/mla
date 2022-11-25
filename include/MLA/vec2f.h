@@ -14,7 +14,7 @@ static inline vec2f mla_vec2f(float x, float y)
 
 static inline float mla_vec2f_dot(vec2f *a, vec2f *b)
 {
-	return a->x * b->x - a->y * b->y;
+	return a->x * b->x + a->y * b->y;
 }
 
 #endif // _vec2f_h_
